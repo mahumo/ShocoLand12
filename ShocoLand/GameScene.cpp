@@ -2,7 +2,7 @@
 #include "MDTextureLoadWrapper.h"
 #include "TiledMap.h"
 #include "SampleScene.h"
-
+// ‚Ó‚Ÿ‚ ‚ ‚ 
 int GameScene::Initialize()
 {	
 	fps.SetFps( 60.0f );
