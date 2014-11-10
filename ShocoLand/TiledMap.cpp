@@ -19,7 +19,6 @@ void TiledMap::Initialize()
 	// csvからマップチップで使用するテクスチャを生成する
 	for( const auto& t : map->tileMap.tileTex )
 		MDBitMapKey::Instance()->Add( "Resource/", t.texPath );
-	
 	/// -----------------------------------------------------------------------
 	/// TileMapEditorのtextデータから、必要なテクスチャをサイズごとにカット
 	/// TileIDのキーにして、登録していく
