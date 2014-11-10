@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{bbbbe8ac-3a08-47c8-ba1d-93f4491e3a3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{81ac7ce9-eeed-4782-b511-af33e91782d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="winCore">
+      <UniqueIdentifier>{852bc467-2e09-47bb-9c3d-3bf6e59e3743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{22d89d21-0b5c-4d9a-8034-6291d021708a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="character">
+      <UniqueIdentifier>{75f82ee8-2969-4a1a-b17e-584bb8d3322b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="character\stage">
+      <UniqueIdentifier>{1b55d002-553b-4d13-89c4-acaf0bd5f35f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map">
+      <UniqueIdentifier>{1a55717e-6303-4f03-a70f-7e35a7652bb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map\TiledMapEditor">
+      <UniqueIdentifier>{4d0693ae-717c-4fca-b7dc-4dd2d38a7ad1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>winCore</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>winCore</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWrapper.h">
+      <Filter>winCore</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MDTextureLoadWrapper.h">
+      <Filter>shader</Filter>
+    </ClInclude>
+    <ClInclude Include="MDCollision2D.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="StringConvert.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="MDBitMapKey.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="TileIDMap.h">
+      <Filter>map\TiledMapEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="TiledMapObj.h">
+      <Filter>map\TiledMapEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="TiledMapLoader.h">
+      <Filter>map\TiledMapEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="TiledTextureFactory.h">
+      <Filter>map\TiledMapEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="TiledObjFactory.h">
+      <Filter>map\TiledMapEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="TiledMapObjManagerd.h">
+      <Filter>map\TiledMapEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="LibInclude.h">
+      <Filter>winCore</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleScene.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Solid.h">
+      <Filter>character\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Normal.h">
+      <Filter>character\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Liquid.h">
+      <Filter>character\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerState.h">
+      <Filter>character</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMoveState.h">
+      <Filter>character</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMove.h">
+      <Filter>character</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>character</Filter>
+    </ClInclude>
+    <ClInclude Include="TiledMap.h">
+      <Filter>map</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>winCore</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>winCore</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWrapper.cpp">
+      <Filter>winCore</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MDTextureLoadWrapper.cpp">
+      <Filter>shader</Filter>
+    </ClCompile>
+    <ClCompile Include="StringConvert.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="MDBitMapKey.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="TileIDMap.cpp">
+      <Filter>map\TiledMapEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="TiledMapObj.cpp">
+      <Filter>map\TiledMapEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="TiledMapLoader.cpp">
+      <Filter>map\TiledMapEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="TiledTextureFactory.cpp">
+      <Filter>map\TiledMapEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="TiledObjFactory.cpp">
+      <Filter>map\TiledMapEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="TiledMapObjManagerd.cpp">
+      <Filter>map\TiledMapEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleScene.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Solid.cpp">
+      <Filter>character\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Normal.cpp">
+      <Filter>character\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Liquid.cpp">
+      <Filter>character\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMoveState.cpp">
+      <Filter>character</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMove.cpp">
+      <Filter>character</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>character</Filter>
+    </ClCompile>
+    <ClCompile Include="TiledMap.cpp">
+      <Filter>map</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resource\icon\DirectX11Librarys.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\icon\small.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource\icon\DirectX11Librarys.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
