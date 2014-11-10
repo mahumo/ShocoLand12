@@ -1,0 +1,23 @@
+#pragma once
+#include <CoreWindows.h>
+#include <MDCore.h>
+#include <CoreD3D.h>
+#include <CoreD2D.h>
+#include <MDTemplate.h>
+#include <MDTypedefs.h>
+#include <MDOperators.h>
+#include <MDUncopyable.h>
+#include <MDSafeReleases.h>
+#include <MDScene.h>
+#include <MDSceneManager.h>
+#include <MDInput.h>
+#include <MDSound.h>
+#include <Wave.h>
+#include <MDSoundManager.h>
+#include <MDCamera.h>
+#include <MD3DHelper.h>
+#include <MD2DHelper.h>
+#include <MD2DBitmap.h>
+#include <MD2DTextWriter.h>
+#include <MDFps.h>
+
